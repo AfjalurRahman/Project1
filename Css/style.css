@@ -1,0 +1,198 @@
+/* All common CSS start */
+*{
+    margin: 0;
+    padding: 0;
+
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+/* All common CSS start */
+
+/* Header part Start */
+#header_part{
+    background: #1C1E53;
+}
+/* .logo_menu will put everything sidewise in it because of flex */
+.logo_menu{
+    display: flex;
+
+}
+.logo{
+    padding-top: 22px;
+    width: 15%;
+}
+.menu{
+    width: 60%;
+    text-align: right;
+}
+/* .menu ul li will pull all the items in horizontally because of inline-block */
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    color: #BBBBCB;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    transition: .4s;
+    padding: 0 15px;
+    line-height: 80px;
+    
+}
+.menu ul li a:hover{
+    color: #fff;
+}
+.btn a{
+    border-radius: 41px;
+    border: 2px solid rgba(244, 246, 252, 0.20);
+    padding: 16px 48px;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    transition: .4s;
+
+}
+.btn{
+    margin-top: 10px;
+    /* it will go from left to right
+        margin-left: auto; */
+    width: 25%;
+    text-align: right;
+}
+.btn a:hover{
+    color: #fff;
+}
+/* Header part End */
+
+/* Banner part Start */
+#banner_part{
+    background: #1C1E53;
+    padding-top: 160px;
+    padding-bottom: 125px;
+}
+.banner_content{
+    display: flex;
+}
+.banner_left{
+    width: 50%;
+}
+.banner_right{
+    width: 50%;
+}
+.banner_left h1{
+    color: var(--White, #FFF);
+    font-family: 'Poppins', sans-serif;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+    padding-bottom: 24px;
+}
+.banner_left p{
+    color: var(--White, #FFF);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    padding-right: 51px;
+    margin-bottom: 48px;
+}
+.banner_left a{
+    padding: 16px 56px;
+    border-radius: 41px;
+    background: #FCD980;
+    color: #1B1C2B;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.banner_left button{
+    background: transparent;
+    border: none;
+    margin-left: 30px;
+    color: var(--White, #FFF);
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.banner_left button i{
+    vertical-align: middle;
+    margin-left: 10px;
+}
+/* Banner part End */
+
+
+
+/* Page2 part Start */
+#page2{
+    background: #F4F6FC;
+    padding-top: 128px;
+    padding-bottom: 129px;
+}
+.page2_content{
+    display: flex;
+}
+.page2_left{
+    width: 50%;
+}
+.page2_right{
+    width: 50%;
+}
+.page2_left h2{
+    color: var(--Dark-blue, #282938);
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+}
+.page2_left p{
+    color: var(--Dark-blue, #282938);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-right: 176px;
+}
+.page2_left a{
+    background: transparent;
+    border: none;
+    color: var(--Royal-Blue, #2405F2);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.page2_left a i{
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+/* Page2 part End */
+
+
+
+
+
+
+/* Header part Start */
+/* Header part End */
+/* Header part Start */
+/* Header part End */
+/* Header part Start */
+/* Header part End */
